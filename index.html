@@ -4,10 +4,68 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./normalize.css" />
 		<link rel="stylesheet" href="./styles.css" />
 		<title>Sign-up Form</title>
 	</head>
 	<body>
-		test
+		<div class="container">
+			<div class="image-container">
+				<div class="logo-container">
+					<img src="./Assets/odin-icon.png" alt="odin logo" />
+					<p class="logo">ODIN</p>
+				</div>
+			</div>
+			<div class="content-container">
+				<div class="text-wrapper">
+					<p>
+						Photo by Sebastian Staines on Unsplash This is not a real online
+						service! You know you need something like this in your life to help
+						you realize your deepest dreams. Sign up now to get started.
+					</p>
+					<p>You <em>know</em> you want to.</p>
+				</div>
+				<div class="form-container">
+					<h3 class="form-Title">Let's do this!</h3>
+					<form action="">
+						<div class="form-block-wrap">
+							<div class="form-block">
+								<label for="first name">FIRST NAME</label
+								><input id="first name" type="text" />
+							</div>
+							<div class="form-block">
+								<label for="last name">LAST NAME</label
+								><input id="last name" type="text" />
+							</div>
+						</div>
+						<div class="form-block-wrap">
+							<div class="form-block">
+								<label for="email">EMAIL</label
+								><input id="email" type="email" />
+							</div>
+							<div class="form-block">
+								<label for="tel">PHONE</label><input id="tel" type="tel" />
+							</div>
+						</div>
+						<div class="form-block-wrap">
+							<div class="form-block">
+								<label for="password">PASSWORD</label
+								><input id="password" type="password" />
+							</div>
+							<div class="form-block">
+								<label for="password-confirm">CONFIRM PASSWORD</label
+								><input id="password-confirm" type="password" />
+							</div>
+						</div>
+					</form>
+				</div>
+				<footer>
+					<button type="submit">Create account</button>
+					<p class="footer-text">
+						Already have an account? <a href="">Log in</a>
+					</p>
+				</footer>
+			</div>
+		</div>
 	</body>
 </html>
