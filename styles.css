@@ -24,6 +24,7 @@
 .text-wrapper {
 	font-size: 22px;
 	font-weight: bold;
+	text-align: justify;
 }
 .form-block-wrap {
 	display: flex;
