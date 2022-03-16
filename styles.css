@@ -1,9 +1,7 @@
 .container {
 	display: flex;
 	height: 100vh;
-}
-* {
-	border: red solid 1px;
+	background-color: #faeee7;
 }
 .content-container {
 	display: flex;
@@ -13,39 +11,56 @@
 	padding-right: 150px;
 }
 .image-container {
-	background-image: url(./Assets/background-image.jpg);
-	width: 35vw;
+	background-image: url(./Assets/undraw_sign_in_re_o58h.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0 175px;
+	width: 40vw;
 	flex-shrink: 0;
-}
-.logo-container {
-	display: flex;
-	margin-top: 30vh;
-	justify-content: center;
-	align-items: center;
-	height: 200px;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-.logo-container img {
-	height: 150px;
-	width: auto;
-}
-.logo {
-	color: white;
-	font-weight: bold;
-	font-size: 72px;
 }
 .form-container p {
 	font-weight: bold;
 }
 .text-wrapper {
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: bold;
-}
-.form-block > * {
-	display: block;
 }
 .form-block-wrap {
 	display: flex;
 	justify-content: flex-start;
 	gap: 80px;
+}
+label {
+	letter-spacing: 1px;
+	font-size: small;
+	display: block;
+}
+input {
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 25px;
+}
+input:focus {
+	outline-color: #ff8ba7;
+}
+button {
+	padding: 10px 35px;
+	background-color: #ff8ba7;
+	color: #33272a;
+	font-family: "Poppins", sans-serif;
+	border-radius: 20px;
+	font-weight: 900;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+p,
+h3,
+label,
+a {
+	color: #594a4e;
+	font-family: "Poppins", sans-serif;
 }
